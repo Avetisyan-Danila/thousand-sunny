@@ -1,4 +1,12 @@
 @import "../libs/normalize.css";
 @import "colors";
 @import "fonts";
+@import "box-sizing";
 @import "blocks/page-body";
+@import "blocks/visibility-hidden";
+@import "blocks/container";
+
+@import "blocks/header";
+@import "blocks/nav";
+@import "blocks/nav-menu";
+@import "blocks/nav-buttons";

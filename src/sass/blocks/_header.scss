@@ -1,5 +1,17 @@
 .header__wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 35px 0;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.header__logo {
+  transition: 0.3s;
+
+  &:hover {
+    transform: scale(1.05);
+  }
 }

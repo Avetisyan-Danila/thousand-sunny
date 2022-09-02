@@ -1,0 +1,61 @@
+.nav-buttons {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+  display: flex;
+  align-items: center;
+}
+
+.nav-buttons__item {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  transition: 0.3s;
+
+  &--login {
+    border-color: $primary;
+
+    & a {
+      color: $primary;
+    }
+
+    &:hover {
+      background-color: $primary;
+
+      & a {
+        color: $white;
+      }
+    }
+  }
+
+  &--register {
+    background-color: $primary;
+
+    & a {
+      color: $white;
+    }
+
+    &:hover {
+      filter: brightness(85%);
+    }
+  }
+
+  &:not(:last-child) {
+    margin-right: 18px;
+  }
+}
+
+.nav-buttons__link {
+  display: block;
+  width: 132px;
+  padding: 11px;
+  text-align: center;
+  line-break: anywhere;
+  transition: 0.3s;
+
+  text-decoration: none;
+  font-family: 'Inter', "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+}
