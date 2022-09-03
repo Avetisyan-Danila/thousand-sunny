@@ -1,13 +1,20 @@
 @import "../libs/normalize.css";
+@import "../../node_modules/slim-select/dist/slimselect.min.css";
+
 @import "colors";
 @import "fonts";
 @import "box-sizing";
+@import "utils";
+
 @import "blocks/page-body";
 @import "blocks/visibility-hidden";
 @import "blocks/container";
-
 @import "blocks/header";
 @import "blocks/nav";
 @import "blocks/nav-menu";
 @import "blocks/nav-buttons";
+@import "blocks/btn";
 @import "blocks/intro";
+@import "blocks/intro-form";
+@import "blocks/slim-select";
+@import "blocks/decor-element";

@@ -12,67 +12,89 @@
 </head>
 <body class="page-body">
   <header class="header">
-    <div class="header__wrapper">
-      <a class="header__logo" href="#">
-        <img src="img/logo.svg" width="41" height="41" alt="thousand sunny">
-      </a>
-      <nav class="nav">
-        <ul class="nav-menu nav-menu--header">
-          <li class="nav-menu__item">
-            <a class="nav-menu__link nav-menu__link--active" href="#">Home</a>
-          </li>
-          <li class="nav-menu__item">
-            <a class="nav-menu__link" href="#">Destinations</a>
-          </li>
-          <li class="nav-menu__item">
-            <a class="nav-menu__link" href="#">About</a>
-          </li>
-          <li class="nav-menu__item">
-            <a class="nav-menu__link" href="#">Partner</a>
-          </li>
-        </ul>
-        <ul class="nav-buttons">
-          <li class="nav-buttons__item nav-buttons__item--login">
-            <a class="nav-buttons__link" href="#">Login</a>
-          </li>
-          <li class="nav-buttons__item nav-buttons__item--register">
-            <a class="nav-buttons__link" href="#">Register</a>
-          </li>
-        </ul>
-      </nav>
+    <div class="container container--wide">
+      <div class="header__wrapper">
+        <a class="header__logo" href="#">
+          <img src="img/logo.svg" width="41" height="41" alt="thousand sunny">
+        </a>
+        <nav class="nav">
+          <ul class="nav-menu nav-menu--header">
+            <li class="nav-menu__item">
+              <a class="nav-menu__link nav-menu__link--active" href="#">Home</a>
+            </li>
+            <li class="nav-menu__item">
+              <a class="nav-menu__link" href="#">Destinations</a>
+            </li>
+            <li class="nav-menu__item">
+              <a class="nav-menu__link" href="#">About</a>
+            </li>
+            <li class="nav-menu__item">
+              <a class="nav-menu__link" href="#">Partner</a>
+            </li>
+          </ul>
+          <ul class="nav-buttons">
+            <li class="nav-buttons__item nav-buttons__item--login">
+              <a class="nav-buttons__link btn btn--outline" href="#">Login</a>
+            </li>
+            <li class="nav-buttons__item nav-buttons__item--register">
+              <a class="nav-buttons__link btn btn--primary" href="#">Register</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </div>
   </header>
   <main>
     <h1 class="visually-hidden">Thousand sunny</h1>
 
-    <section class="intro">
-      <div class="container">
+    <section class="intro spacer">
+      <div class="container container--wide">
         <div class="intro__wrapper">
           <div class="intro__body">
             <h2 class="intro__title">Explore and Travel</h2>
             <h3 class="intro__subtitle">Holiday finder</h3>
             <form class="intro-form">
-              <select class="intro-form__select">
-                <option selected disabled>Location</option>
+              <select id="location" class="intro-form__select">
+                <option value="">Location</option>
+                <option value="Morocco">Morocco</option>
+                <option value="Shanghai">Shanghai</option>
+                <option value="Taiwan">Taiwan</option>
+                <option value="Seychelles">Seychelles</option>
+                <option value="Bali">Bali</option>
               </select>
-              <select class="intro-form__select">
-                <option selected disabled>Activity</option>
+              <select id="Activity" class="intro-form__select">
+                <option value="">Activity</option>
+                <option value="Camping">Camping</option>
+                <option value="Programming">Programming</option>
+                <option value="Floriculture">Floriculture</option>
+                <option value="Bakery products">Bakery products</option>
+                <option value="Winemaking">Winemaking</option>
+                <option value="Brewing">Brewing</option>
+                <option value="Calligraphy">Calligraphy</option>
               </select>
-              <select class="intro-form__select">
-                <option selected disabled>Grade</option>
+              <select id="Grade" class="intro-form__select">
+                <option value="">Grade</option>
+                <option value="Beginner">Beginner</option>
+                <option value="Advanced">Advanced</option>
+                <option value="Expert">Expert</option>
               </select>
-              <select class="intro-form__select">
-                <option selected disabled>Date</option>
+              <select id="Date" class="intro-form__select">
+                <option value="">Date</option>
+                <option value="Tomorrow">Tomorrow</option>
+                <option value="Next week">Next week</option>
+                <option value="Next month">Next month</option>
+                <option value="This year">This year</option>
+                <option value="Next year">Next year</option>
               </select>
-              <button type="submit">Explore</button>
+              <button class="intro-form__btn btn btn--primary" type="submit">Explore</button>
             </form>
           </div>
           <div class="intro__image-wrapper">
             <div class="intro__image">
               <img src="img/intro/1.png" alt="Traveller">
             </div>
+            </div>
           </div>
-          <div class="decor-element decor-element--"></div>
         </div>
       </div>
     </section>

@@ -1,0 +1,16 @@
+.intro-form {
+  max-width: 470px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 35px;
+  column-gap: 30px;
+}
+
+.intro-form__select {
+  width: 220px;
+  height: 52px;
+}
+
+.intro-form__btn {
+  margin-top: 15px;
+}

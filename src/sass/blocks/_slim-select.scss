@@ -1,0 +1,37 @@
+.ss-single-selected {
+  height: 100% !important;
+  padding-left: 30px !important;
+  padding-right: 20px !important;
+  border-color: $gray-6 !important;
+}
+
+.ss-content {
+  border-color: $gray-6 !important;
+}
+
+.ss-disabled {
+  font-family: 'Inter';
+  font-size: 15px;
+  line-height: 32px;
+  color: $gray-5 !important;
+}
+
+.ss-content .ss-list .ss-option:hover {
+  background-color: $primary !important;
+}
+
+.ss-content .ss-list .ss-option-selected {
+  font-weight: 700;
+}
+
+.ss-content .ss-list .ss-option-selected:hover {
+  background-color: transparent !important;
+}
+
+.ss-content .ss-search input:focus {
+  box-shadow: 0 0 5px $primary;
+}
+
+.ss-content .ss-list .ss-option:not(.ss-disabled).ss-option-selected {
+  background-color: rgba(251, 143, 29, 0.1);
+}

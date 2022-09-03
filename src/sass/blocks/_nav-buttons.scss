@@ -8,25 +8,6 @@
 }
 
 .nav-buttons__item {
-  border-radius: 8px;
-  border: 1px solid transparent;
-
-  &--login {
-    border-color: $primary;
-
-    & a {
-      color: $primary;
-    }
-  }
-
-  &--register {
-    background-color: $primary;
-
-    & a {
-      color: $white;
-    }
-  }
-
   &:not(:last-child) {
     margin-right: 18px;
   }
@@ -34,13 +15,5 @@
 
 .nav-buttons__link {
   display: block;
-  width: 132px;
-  padding: 11px;
-  text-align: center;
-
   text-decoration: none;
-  font-family: 'Inter', "Arial", sans-serif;
-  font-size: 15px;
-  line-height: 20px;
-  font-weight: 500;
 }

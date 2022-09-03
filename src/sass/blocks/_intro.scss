@@ -1,5 +1,13 @@
+.intro__body {
+  padding-top: 35px;
+}
+
 .intro__wrapper {
   display: flex;
+}
+
+.intro__image-wrapper {
+  margin-left: auto;
 }
 
 .intro__image {
@@ -18,12 +26,17 @@
 
 .intro__title {
   margin: 0 0 74px;
+  max-width: 356px;
 
   font-family: 'PlayfairDisplay', 'Arial', sans-serif;
   font-size: 64px;
   line-height: 80px;
   font-weight: 700;
   color: $dark-blue;
+
+  @media (max-width: 1300px) {
+    max-width: none;
+  }
 }
 
 .intro__subtitle {
