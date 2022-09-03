@@ -18,14 +18,6 @@
     & a {
       color: $primary;
     }
-
-    &:hover {
-      background-color: $primary;
-
-      & a {
-        color: $white;
-      }
-    }
   }
 
   &--register {
@@ -33,10 +25,6 @@
 
     & a {
       color: $white;
-    }
-
-    &:hover {
-      filter: brightness(85%);
     }
   }
 
@@ -50,8 +38,6 @@
   width: 132px;
   padding: 11px;
   text-align: center;
-  line-break: anywhere;
-  transition: 0.3s;
 
   text-decoration: none;
   font-family: 'Inter', "Arial", sans-serif;
