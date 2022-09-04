@@ -1,5 +1,6 @@
 @import "../libs/normalize.css";
 @import "../../node_modules/slim-select/dist/slimselect.min.css";
+@import "../../node_modules/swiper/swiper.min.css";
 
 @import "colors";
 @import "fonts";
@@ -22,3 +23,8 @@
 @import "blocks/title";
 @import "blocks/cards";
 @import "blocks/cards-list";
+
+.swiper {
+  width: 600px;
+  height: 300px;
+}
