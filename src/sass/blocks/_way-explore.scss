@@ -21,8 +21,14 @@
   display: flex;
 }
 
+.way-explore__body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 .way-explore__title {
-  margin-bottom: 20px;
+  margin: 0 0 20px;
 }
 
 .way-explore__text {
@@ -30,7 +36,7 @@
   line-height: 30px;
   font-weight: 300;
   color: $gray-2;
-  margin-bottom: 33px;
+  margin: 0 0 33px;
 }
 
 .way-explore__decor-element {

@@ -5,11 +5,18 @@
   min-width: 132px;
   text-align: center;
   cursor: pointer;
+  text-decoration: none;
+  display: block;
 
   font-family: 'Inter', "Arial", sans-serif;
   font-size: 15px;
   line-height: 20px;
   font-weight: 500;
+
+  &--lg {
+    min-width: 164px;
+    padding: 13px;
+  }
 
   &--primary {
     background-color: $primary;
