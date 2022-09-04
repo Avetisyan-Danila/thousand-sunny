@@ -16,16 +16,6 @@
   color: $gray-5 !important;
 }
 
-.ss-content .ss-list .ss-option:first-child:not(.ss-option-selected) {
-  background-color: $gray-6;
-  color: $gray-4;
-}
-
-.ss-content .ss-list .ss-option:first-child:not(.ss-option-selected):hover {
-  background-color: $gray-6 !important;
-  color: $gray-4 !important;
-}
-
 .ss-content .ss-list .ss-option:hover {
   background-color: $primary !important;
 }

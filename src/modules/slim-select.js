@@ -8,5 +8,6 @@ elements.forEach((select) => {
   new SlimSelect({
     select: `#${selectId}`,
     allowDeselectOption: true,
+    placeholder: selectId,
   })
 })
