@@ -1,3 +1,37 @@
 .decor-element {
   position: absolute;
+  background-size: 100% 100%;
+
+  &--sm {
+    width: 16px;
+    height: 16px;
+  }
+
+  &--md {
+    width: 20px;
+    height: 20px;
+  }
+
+  &--lg {
+    width: 26px;
+    height: 26px;
+  }
+
+  &--xl {
+    width: 31px;
+    height: 31px;
+  }
+
+  &--xxl {
+    width: 42px;
+    height: 42px;
+  }
+
+  &--circle {
+    background-image: url(../img/icons/circle.svg);
+  }
+
+  &--plus {
+    background-image: url(../img/icons/plus.svg);
+  }
 }
