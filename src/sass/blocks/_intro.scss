@@ -38,22 +38,3 @@
     max-width: none;
   }
 }
-
-.intro__subtitle {
-  font-family: 'Inter';
-  font-size: 22px;
-  line-height: 27px;
-  font-weight: 600;
-  color: $dark-blue;
-  margin: 0 0 48px;
-
-  &:after {
-    content: '';
-    display: block;
-    width: 32px;
-    height: 2px;
-    background-color: $dark-blue;
-    border-radius: 4px;
-    margin-top: 21px;
-  }
-}

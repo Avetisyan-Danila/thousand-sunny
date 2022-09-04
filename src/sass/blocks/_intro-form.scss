@@ -6,6 +6,27 @@
   column-gap: 30px;
 }
 
+.intro-form__title {
+  width: 100%;
+
+  font-family: 'Inter';
+  font-size: 22px;
+  line-height: 27px;
+  font-weight: 600;
+  color: $dark-blue;
+  margin: 0 0 13px;
+
+  &:after {
+    content: '';
+    display: block;
+    width: 32px;
+    height: 2px;
+    background-color: $dark-blue;
+    border-radius: 4px;
+    margin-top: 21px;
+  }
+}
+
 .intro-form__select {
   width: 220px;
   height: 52px;
