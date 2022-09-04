@@ -1,0 +1,40 @@
+.cards-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 25px;
+  row-gap: 35px;
+}
+
+.cards-list__item {
+  position: relative;
+
+  border-radius: 8px;
+}
+
+.cards-list__info {
+  background-color: $white;
+}
+
+.cards-list--destinations {
+  .cards-list__info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 11px 22px 11px 0px;
+    border-top-right-radius: 6px;
+  }
+
+  .cards-list__title {
+    margin: 0 0 5px;
+    color: $dark-green;
+  }
+
+  .cards-list__subtitle {
+    margin: 0;
+    color: $gray-3;
+  }
+}

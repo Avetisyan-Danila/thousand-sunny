@@ -1,0 +1,71 @@
+.cards__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 60px;
+}
+
+.cards__title {
+  margin: 0;
+}
+
+.cards__more {
+  position: relative;
+  text-decoration: none;
+
+  font-family: 'Inter';
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 600;
+  color: $primary;
+
+  display: flex;
+  align-items: center;
+
+  &:after {
+    content: '';
+    width: 6px;
+    height: 11px;
+    background-image: url(../img/icons/chevron-right.svg);
+    background-size: 100% 100%;
+    margin-left: 11px;
+  }
+
+  &:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: $primary;
+    transition: 0.3s;
+  }
+
+  &:hover:before {
+    width: 100%;
+  }
+}
+
+.cards__decor-element {
+  &:nth-child(1) {
+    top: -50px;
+    right: 200px;
+  }
+
+  &:nth-child(2) {
+    left: -85px;
+    bottom: 100px;
+
+    @media (max-width: 1300px) {
+      left: -40px;
+    }
+  }
+
+  &:nth-child(3) {
+    left: 50%;
+    transform: translateX(-50px);
+    bottom: -60px;
+  }
+}
