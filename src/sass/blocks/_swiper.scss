@@ -1,0 +1,46 @@
+.swiper--testimonials {
+  .swiper-buttons {
+    background-color: $white;
+    border-radius: 16px 16px 0px 0px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    right: 76px;
+
+    display: flex;
+    align-items: center;
+  }
+
+  .swiper-button {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #000000;
+    border-radius: 50%;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+
+    &--next {
+      margin-left: 22px;
+    }
+
+    & svg path {
+      transition: 0.3s;
+    }
+
+    &.swiper-button-disabled {
+      border-color: $gray-7;
+
+      & svg path {
+        stroke: $gray-7;
+      }
+    }
+  }
+}
