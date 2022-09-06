@@ -48,24 +48,49 @@
   }
 }
 
-.cards__decor-element {
-  &:nth-child(1) {
-    top: -50px;
-    right: 200px;
-  }
+.cards__decor--destinations {
+  .cards__decor-element {
+    &:nth-child(1) {
+      top: -50px;
+      right: 200px;
+    }
 
-  &:nth-child(2) {
-    left: -85px;
-    bottom: 100px;
+    &:nth-child(2) {
+      left: -85px;
+      bottom: 100px;
 
-    @media (max-width: 1300px) {
-      left: -40px;
+      @media (max-width: 1300px) {
+        left: -40px;
+      }
+    }
+
+    &:nth-child(3) {
+      left: 50%;
+      transform: translateX(-50px);
+      bottom: -60px;
     }
   }
+}
 
-  &:nth-child(3) {
-    left: 50%;
-    transform: translateX(-50px);
-    bottom: -60px;
+.cards__decor--stories {
+  .cards__decor-element {
+    &:nth-child(1) {
+      top: -50px;
+      left: 450px;
+    }
+
+    &:nth-child(2) {
+      left: -65px;
+      bottom: 230px;
+
+      @media (max-width: 1300px) {
+        left: -35px;
+      }
+    }
+
+    &:nth-child(3) {
+      right: 350px;
+      bottom: -55px;
+    }
   }
 }

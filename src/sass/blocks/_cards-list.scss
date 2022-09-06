@@ -27,3 +27,30 @@
     color: $gray-3;
   }
 }
+
+.cards-list--stories {
+  .cards-list__info {
+    padding-top: 13px;
+    margin: 0 -1px 0 -1px;
+    position: absolute;
+    bottom: -80px;
+  }
+
+  .cards-list__title {
+    margin: 0 0 13px;
+  }
+
+  .cards-list__text-preview {
+    font-family: 'Inter';
+    font-size: 15px;
+    line-height: 26px;
+    color: $gray-2;
+
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
+    margin: 0 0 23px;
+  }
+}
