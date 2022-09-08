@@ -43,10 +43,12 @@
     font-weight: 500;
   }
 
-  &:hover {
-    &:not(.nav-menu__link--active) {
-      transform: rotate(5deg) scale(1.1);
-      color: $gray-4;
+  @media (min-width: $lg) {
+    &:hover {
+      &:not(.nav-menu__link--active) {
+        transform: rotate(5deg) scale(1.1);
+        color: $gray-4;
+      }
     }
   }
 

@@ -16,8 +16,10 @@
   color: $gray-4;
   transition: 0.2s;
 
-  &:hover {
-    color: $primary;
+  @media (min-width: $lg) {
+    &:hover {
+      color: $primary;
+    }
   }
 
   @extend %bottom-line;

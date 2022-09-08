@@ -14,8 +14,10 @@
   line-height: 20px;
   font-weight: 500;
 
-  &:hover {
-    transform: rotate(5deg) scale(1.1);
+  @media (min-width: $lg) {
+    &:hover {
+      transform: rotate(5deg) scale(1.1);
+    }
   }
 
   @media (max-width: $md) {
@@ -39,8 +41,10 @@
     background-color: $primary;
     color: $white;
 
-    &:hover {
-      filter: brightness(90%);
+    @media (min-width: $lg) {
+      &:hover {
+        filter: brightness(90%);
+      }
     }
   }
 
@@ -49,9 +53,11 @@
     color: $primary;
     border-color: $primary;
 
-    &:hover {
-      background-color: $primary;
-      color: $white;
+    @media (min-width: $lg) {
+      &:hover {
+        background-color: $primary;
+        color: $white;
+      }
     }
   }
 }

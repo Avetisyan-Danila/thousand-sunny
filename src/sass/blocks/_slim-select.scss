@@ -16,16 +16,20 @@
   color: $gray-5 !important;
 }
 
-.ss-content .ss-list .ss-option:hover {
-  background-color: $primary !important;
+@media (min-width: $lg) {
+  .ss-content .ss-list .ss-option:hover {
+    background-color: $primary !important;
+  }
 }
 
 .ss-content .ss-list .ss-option-selected {
   font-weight: 700;
 }
 
-.ss-content .ss-list .ss-option-selected:hover {
-  background-color: transparent !important;
+@media (min-width: $lg) {
+  .ss-content .ss-list .ss-option-selected:hover {
+    background-color: transparent !important;
+  }
 }
 
 .ss-content .ss-search input:focus {

@@ -23,26 +23,28 @@
   transition: 0.2s;
 }
 
-.footer-socials__link:hover {
-  transform: scale(1.2);
-}
+@media (min-width: $lg) {
+  .footer-socials__link:hover {
+    transform: scale(1.2);
+  }
 
-.footer-socials__link--twitter:hover svg path {
-  fill: $twitter;
-}
+  .footer-socials__link--twitter:hover svg path {
+    fill: $twitter;
+  }
 
-.footer-socials__link--facebook:hover svg path {
-  fill: $facebook;
-}
+  .footer-socials__link--facebook:hover svg path {
+    fill: $facebook;
+  }
 
-.footer-socials__link--instagram:hover svg path {
-  fill: $instagram;
-}
+  .footer-socials__link--instagram:hover svg path {
+    fill: $instagram;
+  }
 
-.footer-socials__link--linked-in:hover svg path {
-  fill: $linked-in;
-}
+  .footer-socials__link--linked-in:hover svg path {
+    fill: $linked-in;
+  }
 
-.footer-socials__link--youtube:hover svg path {
-  fill: $youtube;
+  .footer-socials__link--youtube:hover svg path {
+    fill: $youtube;
+  }
 }
