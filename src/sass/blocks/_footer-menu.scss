@@ -14,4 +14,9 @@
   font-size: 18px;
   line-height: 38px;
   color: $gray-4;
+  transition: 0.2s;
+
+  &:hover {
+    color: $primary;
+  }
 }
