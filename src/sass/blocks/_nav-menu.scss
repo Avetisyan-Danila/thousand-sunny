@@ -34,6 +34,7 @@
   &:hover {
     &:not(.nav-menu__link--active) {
       transform: rotate(10deg) scale(1.1);
+      color: $gray-4;
     }
   }
 }
