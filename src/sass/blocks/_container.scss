@@ -5,9 +5,9 @@
   position: relative;
 
   &--wide {
-    max-width: 1300px;
+    max-width: $xl;
 
-    @media (max-width: 1300px) {
+    @media (max-width: $xl) {
       max-width: 1160px;
     }
   }

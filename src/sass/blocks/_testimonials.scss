@@ -5,10 +5,18 @@
 .testimonials__block {
   display: flex;
   align-items: center;
+
+  @media (max-width: $lg) {
+    justify-content: space-between;
+  }
 }
 
 .testimonials__review {
   margin-right: 180px;
+
+  @media (max-width: $lg) {
+    margin-right: 0;
+  }
 }
 
 .testimonials__rating {
@@ -72,7 +80,7 @@
     left: -85px;
     top: 50%;
 
-    @media (max-width: 1300px) {
+    @media (max-width: $xl) {
       left: -25px;
     }
   }

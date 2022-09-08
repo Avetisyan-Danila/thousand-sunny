@@ -15,6 +15,11 @@
   &--info {
     max-width: 360px;
     margin-right: 150px;
+
+    @media (max-width: $lg) {
+      max-width: 340px;
+      margin-right: 40px;
+    }
   }
 }
 

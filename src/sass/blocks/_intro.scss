@@ -4,10 +4,18 @@
 
 .intro__wrapper {
   display: flex;
+
+  @media (max-width: $lg) {
+    flex-wrap: wrap;
+  }
 }
 
 .intro__image-wrapper {
   margin-left: auto;
+
+  @media (max-width: $lg) {
+    margin: 0 auto;
+  }
 }
 
 .intro__image {
@@ -34,8 +42,12 @@
   font-weight: 700;
   color: $dark-blue;
 
-  @media (max-width: 1300px) {
+  @media (max-width: $xl) {
     max-width: none;
+  }
+
+  @media (max-width: $lg) {
+    margin: 0 0 50px;
   }
 }
 
@@ -50,7 +62,7 @@
     left: -85px;
     top: 330px;
 
-    @media (max-width: 1300px) {
+    @media (max-width: $xl) {
       left: -55px;
     }
   }

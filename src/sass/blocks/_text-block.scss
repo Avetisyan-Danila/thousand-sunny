@@ -1,9 +1,23 @@
 .text-block__wrapper {
   display: flex;
+
+  @media (max-width: $lg) {
+    flex-wrap: wrap;
+  }
 }
 
 .text-block--guides .text-block__image-wrapper {
   margin-left: auto;
+
+  @media (max-width: $lg) {
+    margin: 0 auto;
+  }
+}
+
+.text-block--way-explore .text-block__image-wrapper {
+  @media (max-width: $lg) {
+    margin: 0 auto;
+  }
 }
 
 .text-block__image {
@@ -37,11 +51,22 @@
   padding-top: 90px;
   padding-left: 100px;
   max-width: calc(481px + 100px);
+
+  @media (max-width: $lg) {
+    order: -1;
+    max-width: none;
+    padding: 0;
+  }
 }
 
 .text-block--guides .text-block__body {
   padding-top: 130px;
   max-width: calc(410px);
+
+  @media (max-width: $lg) {
+    padding-top: 0;
+    max-width: none;
+  }
 }
 
 .text-block__title {

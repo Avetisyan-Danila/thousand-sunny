@@ -1,7 +1,11 @@
 .main {
   padding-bottom: 170px;
 
-  @media (max-width: 1300px) {
+  @media (max-width: $xl) {
     padding-bottom: 140px;
+  }
+
+  @media (max-width: $lg) {
+    padding-bottom: calc(90px - 55px); // отступ снизу 90px - уже сущ. отступ у .card--stories
   }
 }

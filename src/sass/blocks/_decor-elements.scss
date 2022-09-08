@@ -1,5 +1,5 @@
 .decor-elements {
-  @media (max-width: 1200px) {
+  @media (max-width: $lg) {
     display: none;
   }
 }
