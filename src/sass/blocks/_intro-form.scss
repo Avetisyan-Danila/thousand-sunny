@@ -8,6 +8,10 @@
   @media (max-width: $lg) {
     max-width: none;
   }
+
+  @media (max-width: $sm) {
+    row-gap: 25px;
+  }
 }
 
 .intro-form__title {
@@ -41,6 +45,10 @@
 
   @media (max-width: $lg) {
     width: calc(50% - 15px);
+  }
+
+  @media (max-width: $lg) {
+    width: calc(100%);
   }
 }
 

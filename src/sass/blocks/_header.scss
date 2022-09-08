@@ -12,6 +12,10 @@
 
   & .header__wrapper {
     padding: 25px 0;
+
+    @media (max-width: $xs) {
+      padding: 15px 0;
+    }
   }
 
   @media (min-width: $md) {

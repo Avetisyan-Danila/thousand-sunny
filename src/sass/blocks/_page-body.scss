@@ -5,6 +5,10 @@
   @media (max-width: $lg) {
     padding-top: 90px;
   }
+
+  @media (max-width: $sm) {
+    padding-top: 70px;
+  }
 }
 
 .page-body.lock {

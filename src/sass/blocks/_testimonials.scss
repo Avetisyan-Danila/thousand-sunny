@@ -6,6 +6,10 @@
   @media (max-width: $sm) {
     margin-bottom: -80px;
   }
+
+  @media (max-width: $xs) {
+    margin-bottom: -140px;
+  }
 }
 
 .testimonials__title {

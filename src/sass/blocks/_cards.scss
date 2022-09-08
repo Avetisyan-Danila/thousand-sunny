@@ -12,10 +12,18 @@
   justify-content: space-between;
 
   margin-bottom: 60px;
+
+  @media (max-width: $xs) {
+    justify-content: space-between;
+  }
 }
 
 .cards__title {
   margin: 0;
+
+  @media (max-width: $xs) {
+    max-width: 260px;
+  }
 }
 
 .cards__more {
