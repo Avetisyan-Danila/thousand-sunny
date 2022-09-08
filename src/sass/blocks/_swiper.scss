@@ -6,12 +6,6 @@
   }
 }
 
-.swiper--cards .swiper-button {
-  @media (min-width: $xs) {
-    display: none;
-  }
-}
-
 .swiper-buttons {
   background-color: $white;
   border-radius: 16px 16px 0px 0px;
@@ -90,5 +84,15 @@
   @media (max-width: $xs) {
     width: 40px;
     height: 40px;
+  }
+}
+
+.swiper--cards .swiper-buttons {
+  @media (min-width: $md) {
+    display: none;
+  }
+
+  @media (max-width: $md) {
+    padding: 0;
   }
 }
