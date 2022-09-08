@@ -19,4 +19,6 @@
   &:hover {
     color: $primary;
   }
+
+  @extend %bottom-line;
 }
