@@ -1,0 +1,14 @@
+.footer-socials {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+  display: flex;
+  justify-content: center;
+}
+
+.footer-socials__item {
+  &:not(:last-child) {
+    margin-right: 35px;
+  }
+}
