@@ -1,5 +1,9 @@
 .intro__body {
   padding-top: 35px;
+
+  @media (max-width: $lg) {
+    width: 100%;
+  }
 }
 
 .intro__wrapper {
