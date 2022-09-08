@@ -1,90 +1,94 @@
-.swiper--testimonials {
-  .swiper-buttons {
-    background-color: $white;
-    border-radius: 16px 16px 0px 0px;
-    padding-top: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-
-    position: absolute;
-    z-index: 1;
-    bottom: 0;
-    right: 76px;
-
-    display: flex;
-    align-items: center;
-
-    @media (max-width: $lg) {
-      right: 0;
-      border-radius: 16px 0 0 0;
-    }
-
-    @media (max-width: $md) {
-      width: 100%;
-      background-color: transparent;
-      padding: 0 100px;
-      border-radius: 0;
-
-      bottom: auto;
-      right: auto;
-      top: 170px;
-      left: 0;
-      justify-content: space-between;
-    }
-
-    @media (max-width: $sm) {
-      padding: 0 25px;
-    }
-
-    @media (max-width: $xs) {
-      padding: 0;
-    }
-  }
-
-  .swiper-button {
-    width: 40px;
-    height: 40px;
-    border: 2px solid #000000;
-    border-radius: 50%;
-    cursor: pointer;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 0.3s;
-
-    &--next {
-      margin-left: 22px;
-    }
-
-    & svg path {
-      transition: 0.3s;
-    }
-
-    &.swiper-button-disabled {
-      border-color: $gray-7;
-
-      & svg path {
-        stroke: $gray-7;
-      }
-    }
-
-    @media (max-width: $md) {
-      width: 50px;
-      height: 50px;
-    }
-
-    @media (max-width: $xs) {
-      width: 40px;
-      height: 40px;
-    }
-  }
-}
-
 .swiper--stories {
   padding: 210px 0;
 
   & .swiper-wrapper {
     margin: -210px 0;
+  }
+}
+
+.swiper--cards .swiper-button {
+  @media (min-width: $xs) {
+    display: none;
+  }
+}
+
+.swiper-buttons {
+  background-color: $white;
+  border-radius: 16px 16px 0px 0px;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  right: 76px;
+
+  display: flex;
+  align-items: center;
+
+  @media (max-width: $lg) {
+    right: 0;
+    border-radius: 16px 0 0 0;
+  }
+
+  @media (max-width: $md) {
+    width: 100%;
+    background-color: transparent;
+    padding: 0 100px;
+    border-radius: 0;
+
+    bottom: auto;
+    right: auto;
+    top: 170px;
+    left: 0;
+    justify-content: space-between;
+  }
+
+  @media (max-width: $sm) {
+    padding: 0 25px;
+  }
+
+  @media (max-width: $xs) {
+    padding: 0;
+  }
+}
+
+.swiper-button {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #000000;
+  border-radius: 50%;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+
+  &--next {
+    margin-left: 22px;
+  }
+
+  & svg path {
+    transition: 0.3s;
+  }
+
+  &.swiper-button-disabled {
+    border-color: $gray-7;
+
+    & svg path {
+      stroke: $gray-7;
+    }
+  }
+
+  @media (max-width: $md) {
+    width: 50px;
+    height: 50px;
+  }
+
+  @media (max-width: $xs) {
+    width: 40px;
+    height: 40px;
   }
 }
