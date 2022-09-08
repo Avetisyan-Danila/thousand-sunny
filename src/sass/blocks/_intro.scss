@@ -3,6 +3,7 @@
 
   @media (max-width: $lg) {
     width: 100%;
+    margin-bottom: 60px;
   }
 }
 
@@ -52,6 +53,12 @@
 
   @media (max-width: $lg) {
     margin: 0 0 50px;
+  }
+
+  @media (max-width: $md) {
+    font-size: 52px;
+    line-height: 62px;
+    margin: 0 0 40px;
   }
 }
 

@@ -8,12 +8,24 @@
 
   &--header {
     margin-right: 35px;
+
+    @media (max-width: $md) {
+      margin-right: 0;
+
+      flex-direction: column;
+      margin-bottom: 70px;
+    }
   }
 }
 
 .nav-menu__item {
   &:not(:last-child) {
     margin-right: 35px;
+
+    @media (max-width: $md) {
+      margin-right: 0;
+      margin-bottom: 35px;
+    }
   }
 }
 
@@ -36,5 +48,10 @@
       transform: rotate(5deg) scale(1.1);
       color: $gray-4;
     }
+  }
+
+  @media (max-width: $md) {
+    font-size: 22px;
+    line-height: 26px;
   }
 }

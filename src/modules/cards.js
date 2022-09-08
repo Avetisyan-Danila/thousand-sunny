@@ -5,7 +5,7 @@ const swiper = new Swiper('.swiper--cards', {
   slidesPerView: 1,
   grabCursor: true,
   breakpoints: {
-    768: {
+    576: {
       slidesPerView: 2,
     },
     992: {

@@ -6,6 +6,10 @@
   }
 
   @media (max-width: $lg) {
-    padding-bottom: calc(90px - 55px); // отступ снизу 90px - уже сущ. отступ у .card--stories
+    padding-bottom: 90px;
+  }
+
+  @media (max-width: $md) {
+    padding-bottom: 60px;
   }
 }

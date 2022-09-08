@@ -1,3 +1,13 @@
+.testimonials {
+  @media (max-width: $md) {
+    margin-bottom: -50px;
+  }
+
+  @media (max-width: $sm) {
+    margin-bottom: -80px;
+  }
+}
+
 .testimonials__title {
   margin: 0 0 45px;
 }
@@ -8,6 +18,10 @@
 
   @media (max-width: $lg) {
     justify-content: space-between;
+  }
+
+  @media (max-width: $md) {
+    flex-wrap: wrap;
   }
 }
 
@@ -38,6 +52,10 @@
   max-width: 450px;
 
   margin: 0 0 40px;
+
+  @media (max-width: $md) {
+    max-width: none;
+  }
 }
 
 .testimonials__name {
@@ -67,6 +85,13 @@
     max-width: 100%;
     max-height: 100%;
     border-radius: 14px;
+  }
+
+  @media (max-width: $md) {
+    order: -1;
+    margin: 0 auto 50px;
+
+    max-width: 280px;
   }
 }
 

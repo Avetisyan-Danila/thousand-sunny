@@ -1,5 +1,9 @@
 .cards--stories {
   padding-bottom: 55px;
+
+  @media (max-width: $lg) {
+    padding-bottom: 0;
+  }
 }
 
 .cards__top {
